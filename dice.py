@@ -40,5 +40,3 @@ async def on_message(message):
 with open(r"token.json", "r") as json_file:
     secret = json.load(json_file)
 client.run(secret["token"])
-
-#teste
